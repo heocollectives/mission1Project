@@ -32,3 +32,20 @@ h2 {
   font-size: 3.5rem;
   line-height: 2;
 }
+h1 {
+  font-family: "Sansita Swashed";
+  font-weight: "bold";
+}
+p {
+  font-family: "Staatiliches";
+  font-size: 1.2rem;
+  line-height: 2;
+}
+#details {
+  padding: 3% 15%;
+  background-color: #838383;
+  color: white;
+}
+hr {
+  background-color: #838383;
+}
