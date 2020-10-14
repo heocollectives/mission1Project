@@ -24,7 +24,18 @@
 }
 .main-photo {
   border-radius: 50%;
-  margin: 0 50%;
+  margin: 0 25%;
+}
+#skills-heading {
+text-align: center;
+}
+.card {
+  background-color: #838383;
+  text-align: center;
+}
+.front-end, .back-end, .camera-background {
+  margin: auto;
+  width: 200px;
 }
 h2 {
   font-family: "Staatliches";
@@ -35,6 +46,7 @@ h2 {
 h1 {
   font-family: "Sansita Swashed";
   font-weight: "bold";
+  padding: 2rem 0;
 }
 p {
   font-family: "Staatiliches";
@@ -46,6 +58,25 @@ p {
   background-color: #838383;
   color: white;
 }
-hr {
+#bottom-section {
   background-color: #838383;
+  text-align: center;
+  color: white;
+}
+.facebook-link, .linkedin-link, .instagram-link {
+  color: white;
+  margin: 5px 2px;
+}
+.contact-button {
+  margin: 2rem 0;
+  font-family:"Staatiliches";
+  font-weight: bold;
+  color: white;
+  background-color: #838383;
+}
+
+#copyright {
+  background-color:#555555;
+  padding-bottom: 2px;
+  text-align: center;
 }

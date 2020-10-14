@@ -10,12 +10,10 @@
          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
          crossorigin="anonymous">
+        <!-- FontAwesome CDN -->
+        <script src="https://kit.fontawesome.com/80308f16e5.js" crossorigin="anonymous"></script>
         <!-- My CSS -->
         <link href="mission1.css" rel="stylesheet" type="text/css">
-        <!-- FontAwesome CDN -->
-        <href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Favicon Link -->
-        <link rel="image" type="img" href="favicon.ico">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
         <!-- JS + JQuery CDN -->
@@ -66,47 +64,54 @@
         <div class="col-lg-6">
             <img class="main-photo" src="https://instagram.fhlz2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/117991864_1378628719193967_2085714859630777454_n.jpg?_nc_ht=instagram.fhlz2-1.fna.fbcdn.net&_nc_ohc=mssazFZUkhcAX8SY9iy&oh=5e55f471b0f00a76126724833d4c5daf&oe=5F9D13F2"
             alt="mainphoto">
-            <!-- <img class="coding-background" src="https://www.flaticon.com/svg/static/icons/svg/1336/1336989.svg"
-                alt="cloud-img">
-            </div>-->
             </div>
         </section>
-        <hr>
+        
         <section id="details">
-            <div class="row">
-                <div class="col-lg-6">
-                <h2>Skills</h2>
-                <h1>Front End Development</h1>
-                <p>HTML/CSS/Bootstrap/Javascript/ReactJS<br>Testing/Debugging/Responsive Web Design</p>
-                <h1>Back End Development</h1>
-                <p>MongoDB/SQL/NodeJS</p>
-                <h1>Other</h1>
-                <p>Photography/Videography/Social Media Marketing</p>
-            </div>
-            <div class="col-lg-6">
-            <img class="camera-background" src="https://www.flaticon.com/svg/static/icons/svg/3570/3570288.svg"
-                    alt="camera-img">
-            </div>
+            <div id="skills-heading"><h2>Skills</h2></div>
+            <div class="card-deck">
+                <div class="card">
+                  <img class="front-end" src="https://www.flaticon.com/svg/static/icons/svg/1336/1336989.svg" alt="FE-img">
+                  <div class="card-body">
+                    <h1 class="card-title">Front End</h1>
+                    <p class="card-text">HTML/CSS/Bootstrap<br>Javascript/ReactJS<br>Testing/Debugging<br>Responsive Web Design</p></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="back-end" src="https://www.flaticon.com/svg/static/icons/svg/1509/1509421.svg" alt="BE-img">
+                  <div class="card-body">
+                    <h1 class="card-title">Back End</h1>
+                    <p class="card-text">MongoDB/SQL/NodeJS</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="camera-background" src="https://www.flaticon.com/svg/static/icons/svg/3570/3570288.svg" alt="camera-img">
+                  <div class="card-body">
+                    <h1 class="card-title">Other</h1>
+                    <p class="card-text">Photography/Videography<br>Digital-Marketing</p>
+                  </div>
+                </div>
+              </div>
+
         </section>
-            <hr>
-            <section class="bottom-section">
+            <section id="bottom-section">
+
                 <div class="contact-me">
                     <h1>Get In Touch!</h1>
                     <p>Keen on working together? Let's collaborate and get innovating!</p>
+                    <div class="footer-section">
+                     <a class="linkedin-link" href="https://www.linkedin.com/in/david-heo-b2761719a/">
+                     <i class="fa fa-linkedin-square fa-2x"></i></a>
+                     <a class="facebook-link" href="https://www.facebook.com/david.heo.739/">
+                        <i class="fa fa-facebook-square fa-2x"></i></a>
+                     <a class="instagram-link" href="https://www.instagram.com/rundavidheo/">
+                        <i class="fab fa-instagram-square fa-2x"></i></a>
+                    </div>
                 </div>
-                <a class="btn" href="heocollectives@gmail.com">CONTACT ME!</a>
-                <br><br><br><br>
-            </section>
-            <div class="footer-section">
-                <a class="footer-link" href="https://www.linkedin.com/in/david-heo-b2761719a/">
-                    <i class="fa fa-linkedin-square fa-2x"></i>
-                </a>
-                <a href="https://www.facebook.com/david.heo.739/" target="_blank">
-                    <i class="fa fa-facebook-square fa-2x"></i>
-                </a>
+                <button type="button" class="contact-button btn btn-light" href="heocollectives@gmail.com">CONTACT ME</button>
+                
                 <div id="copyright">
                     <p>© 2020 David Heo</p>
-                </div>
                 </div>
         </section>
         <!-- Add padding on the footer end with a different colour to add separation-->
