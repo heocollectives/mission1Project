@@ -2,6 +2,7 @@
   background-color: #838383;
   color: white;
 }
+/* Nav Bar Section */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -19,6 +20,7 @@
   font-weight: "bold";
   color: white;
 }
+/* Home Section */
 .header-container {
   padding: 3% 15%;
 }
@@ -27,7 +29,7 @@
   margin: 0 25%;
 }
 #skills-heading {
-text-align: center;
+  text-align: center;
 }
 .card {
   background-color: #838383;
@@ -37,16 +39,18 @@ text-align: center;
   margin: auto;
   width: 200px;
 }
+/* Fonts Section */
 h2 {
   font-family: "Staatliches";
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 2;
 }
 h1 {
   font-family: "Sansita Swashed";
   font-weight: "bold";
-  padding: 2rem 0;
+  font-size: 3.5rem;
+  line-height: 2.5;
 }
 p {
   font-family: "Staatiliches";
@@ -58,14 +62,18 @@ p {
   background-color: #838383;
   color: white;
 }
+
+/* Bottom Section */
 #bottom-section {
   background-color: #838383;
   text-align: center;
   color: white;
+  padding-bottom: 4%;
 }
 .facebook-link, .linkedin-link, .instagram-link {
   color: white;
   margin: 5px 2px;
+  line-height: 2;
 }
 .contact-button {
   margin: 2rem 0;
@@ -74,9 +82,13 @@ p {
   color: white;
   background-color: #838383;
 }
-
-#copyright {
+#footer {
   background-color:#555555;
   padding-bottom: 2px;
   text-align: center;
+  padding: 2%;
+}
+
+.copyright {
+  color: white;
 }
