@@ -1,11 +1,12 @@
 #title {
-  background-color: #838383;
+  background-color: #aaaaaa;
   color: white;
 }
 /* Nav Bar Section */
 .navbar {
   padding: 0 0 4.5rem;
 }
+
 .nav-item {
   padding: 0 18px;
 }
@@ -15,7 +16,7 @@
   font-weight: bold;
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Sansita Swashed";
   font-weight: "bold";
   color: white;
@@ -32,7 +33,7 @@
   text-align: center;
 }
 .card {
-  background-color: #838383;
+  background-color: #6e6d6d;
   text-align: center;
 }
 .front-end, .back-end, .camera-background {
@@ -43,7 +44,7 @@
 h2 {
   font-family: "Staatliches";
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 2;
 }
 h1 {
@@ -58,17 +59,16 @@ p {
   line-height: 2;
 }
 #details {
-  padding: 3% 15%;
-  background-color: #838383;
+  padding: 4% 15%;
+  background-color: #6e6d6d;
   color: white;
 }
-
 /* Bottom Section */
 #bottom-section {
-  background-color: #838383;
+  background-color: #6e6d6d;
   text-align: center;
   color: white;
-  padding-bottom: 4%;
+  padding: 3% 0;
 }
 .facebook-link, .linkedin-link, .instagram-link {
   color: white;
@@ -80,15 +80,109 @@ p {
   font-family:"Staatiliches";
   font-weight: bold;
   color: white;
-  background-color: #838383;
+  background-color: #6e6d6d;
 }
 #footer {
-  background-color:#555555;
+  background-color:#aaaaaa;
   padding-bottom: 2px;
   text-align: center;
   padding: 2%;
 }
-
 .copyright {
   color: white;
+}
+/* Slideshow Section */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+#slideshow {
+  background-color: #aaaaaa;
+}
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px 20px 0;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10s;
+  animation-name: fade;
+  animation-duration: 10s;
+} 
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
 }
